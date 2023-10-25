@@ -1,0 +1,7 @@
+version: '3'
+services:
+  infer_service:
+    image: harbor.uat.enflame.cc/library/enflame.cn/cloth_mask:master
+    ports:
+      - "5005:5000"
+    restart: always
